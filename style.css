@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right,rgb(153, 153, 225),rgb(228, 228, 178));
+}
+.container{
+    max-width: 550px;
+    margin: 300px auto;
+    height: 15rem;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(90, 80, 80, 0.3);
+}
+.title{
+    margin: 30px;
+    padding-top: 20px;
+}
+.title h1{
+    background-color: rgb(196, 212, 226);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.status{
+    margin-right: 40px;
+    margin-left: 45px;
+}
+.status p{
+    margin: 10px;
+    font-size: 16px;
+}
